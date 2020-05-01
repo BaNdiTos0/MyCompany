@@ -156,17 +156,19 @@ main .about {
 }
 
 /*Our Team*/
-.main__team{
- background-color: #000;
- text-align: center;
- padding: 100px 0 165px 0;
- color: #fff;    
+.main__team {
+    background-color: #000;
+    text-align: center;
+    padding: 100px 0 165px 0;
+    color: #fff;
 }
-.main__team h1{
- padding-bottom: 30px;
- font-size: 44px;    
+
+.main__team h1 {
+    padding-bottom: 30px;
+    font-size: 44px;
 }
-.line{
+
+.line {
     width: 100px;
     height: 3px;
     background-color: #fcac45;
@@ -174,30 +176,61 @@ main .about {
     left: 45.5%;
     margin-bottom: 105px;
 }
-.photo{
-background: #d7d7d7;
-width: 125px;
-height: 125px;
-border-radius: 50%;
-margin: 20px auto;
+
+.photo {
+    background: #d7d7d7;
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    margin: 20px auto;
 }
-.team__cards{
-display: flex;    
+
+.team__cards {
+    display: flex;
 }
-.card{
+
+.card {
     margin: 0 20px;
 }
-.name{
+
+.name {
     font-size: 20px;
     margin-bottom: 7px;
 }
-.position{
+
+.position {
     font-size: 16px;
     margin-bottom: 42px;
 }
-.about__position{
+
+.about__position {
     font-size: 14px;
 }
+
+/*Our Services*/
+
+.services__cards {
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 20px;
+}
+.main__services {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -220,8 +253,9 @@ display: flex;
     nav {
         margin-left: 10%;
     }
-    .team__cards{
-     flex-direction: column;
+
+    .team__cards {
+        flex-direction: column;
     }
 }
 
@@ -263,8 +297,8 @@ display: flex;
         display: block;
         text-align: left;
     }
-    
-   
+
+
 }
 
 
@@ -313,8 +347,8 @@ display: flex;
         font-size: 20px;
         margin-top: 10px;
     }
-     
-    
+
+
 }
 
 @media screen and (max-width: 1432px) {
