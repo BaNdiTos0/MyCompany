@@ -385,7 +385,7 @@ border-bottom: 3px solid #fcac45;
         display: block;
         text-align: left;
     }
-    .topnav a:hover{
+    .topnav a:not(last-child):hover{
         
         width: 100px;
         content: "";
